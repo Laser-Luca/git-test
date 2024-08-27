@@ -1,0 +1,5 @@
+body {
+    background-color: black;
+    grid-template-columns: max-content;
+    grid-template-rows: max-content;
+}
