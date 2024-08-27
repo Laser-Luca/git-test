@@ -6,7 +6,7 @@ body {
 }
 
 #F {
-   grid-template-columns: 20% 13% 10% 37% 20%;
+   grid-template-columns: auto 10% 13% 28% auto;
    grid-template-rows: 10em 15em auto;
    display: grid;
    text-align: center;
