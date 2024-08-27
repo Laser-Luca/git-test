@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="../../CSS/TR.css" />
+</head>
+
+<body>
+    <section id="navbar">
+        <div style="margin: 0">
+            <ul>
+                <li>
+                    <a>Inhalt</a>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="hobbys.html">ÜberMich</a></li>
+                        <li><a href="Monkeytype.html">Monkeytype</a></li>
+                        <li><a href="Bilder.html">Galerie</a></li>
+                        <li><a href="ÜberMich.html">Linksammlung</a></li>
+                        <li><a href="Ll.html">Lebenslauf</a></li>
+                        <li>
+                            <a href="TR.html" style="color: rgba(255, 0, 0, 0.621)">Taschenrechner</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="calculator">
+        <input type="text" id="display" />
+        <div class="buttons">
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="appendNumber('*')">*</button>
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button onclick="appendNumber('/')">/</button>
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button onclick="appendNumber('+')">+</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendNumber('0')">0</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="appendNumber('-')">-</button>
+        </div>
+    </div>
+    <script>
+        function appendNumber(number) {
+            const display = document.getElementById("display");
+            display.value += number;
+        }
+
+        function clearDisplay() {
+            const display = document.getElementById("display");
+            display.value = "";
+        }
+
+        function calculateResult() {
+            const display = document.getElementById("display");
+            try {
+                display.value = eval(display.value);
+            } catch (error) {
+                display.value = "Error";
+            }
+        }
+    </script>
+</body>
+
+</html>

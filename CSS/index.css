@@ -1,0 +1,79 @@
+ body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #04030F;
+    color: white;
+ }
+
+ #das {
+    grid-template-columns: auto 40% auto;
+    grid-template-rows: auto auto;
+    display: grid;
+    text-align: center;
+ }
+
+ h1 {
+    font-size: 2.5em;
+    grid-column: 2;
+    text-align: center;
+    color: white;
+ }
+
+
+
+ #du {
+    grid-column: 2;
+    grid-row: 2;
+ }
+
+ div a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+ }
+
+ ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+ }
+
+ ul li {
+    display: inline-block;
+ }
+
+ ul li:hover {
+    background: black;
+ }
+
+ ul li:hover ul {
+    display: block;
+ }
+
+ ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+ }
+
+ ul li ul li {
+    background: black;
+    display: block;
+    border: 1px solid red;
+ }
+
+ ul li ul li a {
+    display: block !important;
+ }
+
+ ul li ul li:hover {
+    background: dimgrey;
+ }
+
+ p {
+    margin: 0;
+    text-align: center;
+    color: white;
+ }
