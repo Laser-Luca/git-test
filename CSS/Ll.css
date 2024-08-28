@@ -6,7 +6,7 @@ body {
 }
 
 #F {
-   grid-template-columns: auto 10% 13% 28% auto;
+   grid-template-columns: auto 13% 13% 28% auto;
    grid-template-rows: 10em 15em auto;
    display: grid;
    text-align: center;
@@ -61,11 +61,12 @@ img {
 
 .list {
    border-bottom: solid 1px rgba(127, 213, 151, 0.556);
-   font-size: 1.1em;
+   font-size: 1.15em;
 }
 
 .li {
-   font-size: 0.7em;
+   font-size: 0.75em;
+   margin-top: 20px;
 }
 
 #l {
@@ -75,6 +76,7 @@ img {
 .Titel {
    font-size: 1.5em;
    color: darkcyan;
+   margin: 30px;
 }
 
 #F4 {
@@ -87,11 +89,17 @@ img {
 }
 
 .P {
-   font-size: 1.1em;
+   font-size: 1.15em;
+   border-bottom: solid 1px rgba(127, 213, 151, 0.556);
+   color: darkcyan;
+   margin-top: 1.8em;
 }
 
 .p {
-   font-size: 0.7em;
+   font-size: 0.75em;
+}
+.lic {
+   font-size: 0.6em;
 }
 
 .dropdown {
