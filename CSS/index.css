@@ -6,10 +6,12 @@
  }
 
  #das {
-    grid-template-columns: auto 40% auto;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
     display: grid;
     text-align: center;
+    margin-top: auto;
+    margin-top: 5%;
  }
 
  h1 {
