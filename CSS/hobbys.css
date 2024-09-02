@@ -9,7 +9,6 @@ body {
    grid-template-columns: auto auto auto;
    grid-template-rows: auto auto auto;
    display: grid;
-   text-align: center;
    margin: 10%;
 }
 
@@ -22,6 +21,7 @@ body {
 #d1 {
    grid-column: 3;
    grid-row: 1;
+   text-align: center;
 }
 
 #d3 {
