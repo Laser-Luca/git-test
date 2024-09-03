@@ -1,10 +1,3 @@
-body {
-   font-family: sans-serif;
-   margin: 0;
-   background-color: #04030F;
-   color: rgb(224, 255, 255);
-}
-
 #F {
    grid-template-columns: auto auto auto auto auto;
    grid-template-rows: auto auto auto;

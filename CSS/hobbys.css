@@ -1,10 +1,3 @@
-body {
-   font-family: sans-serif;
-   margin: 0;
-   background: #04030F;
-   color: white;
-}
-
 #d2 {
    grid-template-columns: auto auto auto;
    grid-template-rows: auto auto auto;

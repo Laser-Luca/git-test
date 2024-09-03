@@ -1,11 +1,4 @@
- body {
-    font-family: sans-serif;
-    margin: 0;
-    background-color: #04030F;
-    color: white;
- }
-
- #titel {
+#titel {
     text-align: center;
     margin-top: auto;
     margin-top: 5%;

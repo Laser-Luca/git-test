@@ -1,52 +1,59 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #04030F;
+    color: white;
+}
+
 #navbar {
     div {
-       background-color: black;
-       border: 1px solid red;
+        background-color: black;
+        border: 1px solid red;
     }
- 
+
     div a {
-       text-decoration: none;
-       color: red;
-       font-size: 20px;
-       padding: 15px;
-       display: inline-block;
+        text-decoration: none;
+        color: red;
+        font-size: 20px;
+        padding: 15px;
+        display: inline-block;
     }
- 
+
     ul {
-       display: inline;
-       margin: 0;
-       padding: 0;
+        display: inline;
+        margin: 0;
+        padding: 0;
     }
- 
+
     ul li {
-       display: inline-block;
+        display: inline-block;
     }
- 
+
     ul li:hover {
-       background: black;
+        background: black;
     }
- 
+
     ul li:hover ul {
-       display: block;
+        display: block;
     }
- 
+
     ul li ul {
-       position: absolute;
-       width: 200px;
-       display: none;
+        position: absolute;
+        width: 200px;
+        display: none;
     }
- 
+
     ul li ul li {
-       background: black;
-       display: block;
-       border: 1px solid red;
+        background: black;
+        display: block;
+        border: 1px solid red;
     }
- 
+
     ul li ul li a {
-       display: block !important;
+        display: block !important;
     }
- 
+
     ul li ul li:hover {
-       background: dimgrey;
+        background: dimgrey;
     }
- }
+}
