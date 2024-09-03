@@ -2,7 +2,6 @@
    grid-template-columns: auto auto auto;
    grid-template-rows: auto fit-content auto;
    display: grid;
-   text-align: center;
 }
 
 h1 {
@@ -13,19 +12,16 @@ h1 {
 #Citrix {
    grid-column: 1;
    grid-row: 2;
-   text-align: center;
 }
 
 #Monkeytype {
    grid-column: 3;
    grid-row: 2;
-   text-align: center;
 }
 
 #COLOR {
    grid-column: 2;
    grid-row: 2;
-   text-align: center;
 }
 
 img {

@@ -2,7 +2,6 @@
    grid-template-columns: auto auto auto;
    grid-template-rows: 10em auto;
    display: grid;
-   text-align: center;
 }
 
 h1 {
@@ -13,7 +12,6 @@ h1 {
 #tabelle {
    grid-column: 2;
    grid-row: 2;
-   text-align: center;
    margin: 0;
 }
 
