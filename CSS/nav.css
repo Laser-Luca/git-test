@@ -5,6 +5,10 @@ body {
     color: white;
 }
 
+h1 {
+    color: white;
+}
+
 #navbar {
     div {
         background-color: black;
