@@ -6,8 +6,7 @@ body {
     text-align: center;
 }
 
-.background {
-    /* position: absolute; */
+/* .background {
     top: 0;
     left: 0;
     right: 0;
@@ -16,40 +15,20 @@ body {
 }
 
 .coLor {
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
     animation: text-animation 50s infinite;
 }
 
 .coLorA {
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
     animation: text-animation 25s infinite;
 }
 
 .coLorLl {
     font-size: 1.5em;
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
     animation: text-animation 20s infinite;
 }
 
 .inhalt {
     font-size: 1.5em;
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
     animation: text-animation 50s infinite;
 }
 
@@ -327,7 +306,7 @@ body {
     100% {
         border-color: red;
     }
-}
+} */
 
 h1 {
     color: white;
