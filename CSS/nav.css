@@ -6,6 +6,217 @@ body {
     text-align: center;
 }
 
+.background {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: bg-animation 50s infinite;
+}
+
+.coLor {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    animation: bg-animation2 10s infinite;
+}
+
+.coLorLl {
+    font-size: 1.5em;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    animation: bg-animation2 10s infinite;
+}
+
+@-webkit-keyframes bg-animation2 {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: orange;
+    }
+
+    20% {
+        color: yellow;
+    }
+
+    30% {
+        color: lightgreen;
+    }
+
+    40% {
+        color: green;
+    }
+
+    50% {
+        color: turquoise;
+    }
+
+    60% {
+        color: lightblue;
+    }
+
+    70% {
+        color: blue;
+    }
+
+    80% {
+        color: violet;
+    }
+
+    90% {
+        color: pink;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+@keyframes bg-animation2 {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: orange;
+    }
+
+    20% {
+        color: yellow;
+    }
+
+    30% {
+        color: lightgreen;
+    }
+
+    40% {
+        color: green;
+    }
+
+    50% {
+        color: turquoise;
+    }
+
+    60% {
+        color: lightblue;
+    }
+
+    70% {
+        color: blue;
+    }
+
+    80% {
+        color: violet;
+    }
+
+    90% {
+        color: pink;
+    }
+
+    100% {
+        color: red;
+    }
+}
+@-webkit-keyframes bg-animation {
+    0% {
+        border-color: red;
+    }
+
+    10% {
+        border-color: orange;
+    }
+
+    20% {
+        border-color: yellow;
+    }
+
+    30% {
+        border-color: lightgreen;
+    }
+
+    40% {
+        border-color: green;
+    }
+
+    50% {
+        border-color: turquoise;
+    }
+
+    60% {
+        border-color: lightblue;
+    }
+
+    70% {
+        border-color: blue;
+    }
+
+    80% {
+        border-color: violet;
+    }
+
+    90% {
+        border-color: pink;
+    }
+
+    100% {
+        border-color: red;
+    }
+}
+
+@keyframes bg-animation {
+    0% {
+        border-color: red;
+    }
+
+    10% {
+        border-color: orange;
+    }
+
+    20% {
+        border-color: yellow;
+    }
+
+    30% {
+        border-color: lightgreen;
+    }
+
+    40% {
+        border-color: green;
+    }
+
+    50% {
+        border-color: turquoise;
+    }
+
+    60% {
+        border-color: lightblue;
+    }
+
+    70% {
+        border-color: blue;
+    }
+
+    80% {
+        border-color: violet;
+    }
+
+    90% {
+        border-color: pink;
+    }
+
+    100% {
+        border-color: red;
+    }
+}
+
 h1 {
     color: white;
 }
@@ -14,7 +225,7 @@ h1 {
     text-align: left;
 
     div {
-        background-color: black;
+        border-color: black;
         border: 1px solid red;
     }
 
